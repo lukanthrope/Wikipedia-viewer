@@ -6,6 +6,7 @@ $('.search').on('click', function() {
 $('.close').on('click', function() {
   $('.search').show(1500);
   $('span').hide(1000);
+  $('.wiki').empty();
 });
 
 $('span').on('keypress','input', function(enter) {
